@@ -26,7 +26,7 @@ public class Romain {
 		force -= forceCoup;
 		if(force < 1) {
 			force = 0;
-			System.out.println("Le Romain " + nom + " J'abandonne !");
+			System.out.println("Le Romain " + nom + " : J'abandonne !");
 		}
 		else {
 			parler("Aie");
