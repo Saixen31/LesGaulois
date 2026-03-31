@@ -34,4 +34,9 @@ public class Village {
 		System.out.println("Il ny'a a pas autant d'habitants !");
 		return null;
 	}
+	
+	public static void main(String[] args) {
+		Gaulois asterix = new Gaulois("Astérix", 8);
+	}
 }
+
